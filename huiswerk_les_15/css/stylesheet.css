@@ -1,0 +1,88 @@
+header{
+    background-color: darkmagenta;
+    padding: 5px;
+}
+ul a{
+    color: white;
+    text-decoration: none;
+}
+li{
+    display: inline-block;
+    height: 15px;
+    width: 200px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    border-left: 2px darkmagenta;
+    border-right: 2px darkmagenta;
+    background-color: darkmagenta;
+}
+li:hover{
+    background-color: plum;
+    border-style: none;
+}
+footer{
+    background-color: darkmagenta;
+    text-align: center;
+    height: 20px;
+    padding: 5px;
+    color:white;
+}
+div{
+    background-image: url(copyright.png);
+    background-repeat: no-repeat;
+}
+body{
+    background-color: thistle;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 17px;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+}
+h3{
+    color: white;
+    margin: 10px;
+}   
+input[type="text"], input[type="email"], textarea, select, button{
+    display: block;
+    margin: 12px 0px;
+    width: 400px;
+    box-sizing: border-box;
+    background-color:plum;
+    border-radius: 8px;
+    margin: 10px;
+}
+textarea{
+    height: 200px;
+    background-color: plum;
+    color: black;
+    border-radius: 8px;
+}
+button:active{
+    background-color: darkmagenta;
+    color: white;
+    border-radius: 20px;
+    box-shadow: inset 2px 2px 5px plum;
+}
+table{
+    background-color: darkmagenta;
+    border-collapse: collapse;
+    border-style: solid;
+    margin: 50px;
+    color: white;
+}
+td,th{
+    padding: 15px 10px;
+    border-style: solid;
+}
+p{
+    background-color: darkmagenta;
+    margin: 50px;
+    text-align: center;
+    color:white;
+}
+img{
+  float: left;
+}
